@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/facebook"
+    tools:context=".Facebook">
+
+
+
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:id="@+id/text1"
+            android:background="@drawable/bg"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:id="@+id/text2"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:background="@drawable/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number or Email Address"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/text4"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:background="@drawable/bg"
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="new password"
+        ></EditText>
+    <EditText
+        android:id="@+id/text5"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:background="@drawable/bg"
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        ></EditText>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:id="@+id/date1"
+        android:background="@drawable/bg"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Date of birth">
+    </TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/button1"
+            android:background="@drawable/bg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            ></RadioButton>
+    <RadioButton
+        android:id="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Female">
+    </RadioButton>
+
+        <RadioButton
+            android:id="@+id/button3"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            ></RadioButton>
+    </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sing Up"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        ></Button>
+
+
+
+
+
+
+</LinearLayout>
