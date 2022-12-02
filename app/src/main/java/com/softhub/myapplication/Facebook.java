@@ -78,7 +78,7 @@ public class Facebook extends AppCompatActivity {
                 Log.e("Facebook", "Email or number=" + Email_or_number);
 
                 String password = editText4.getText().toString();
-                if ((Pattern.matches("[[a-z]?[A-Z]?[@#$%&*]?[0-9]?]{8,16}", password))) {
+                if ((Pattern.matches("[[a-z]+[A-Z]+[@#$%&*]+[0-9]+]{8,16}", password))) {
                     editor.putString("password",password);
                     editor.commit();
                 } else {
